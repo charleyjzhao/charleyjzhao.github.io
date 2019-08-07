@@ -4,7 +4,7 @@ body {
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Lato', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -36,8 +36,8 @@ h3 {
 }
 
 p {
-    font-size: 1em;
-    line-height: 1.15em;
+    font-size: 1.15em;
+    line-height: 1.2em;
     font-family:'Lato', 'Sans-Serif';
     font-weight: 300;
     color: rgb(73, 72, 72);
