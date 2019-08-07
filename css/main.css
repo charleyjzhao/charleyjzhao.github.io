@@ -47,7 +47,7 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     font-family:'Lato', 'Sans-Serif';
-    color: #999;
+    color: rgb(61, 61, 61);
 }
 
 ul.posts {
