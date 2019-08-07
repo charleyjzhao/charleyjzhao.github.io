@@ -4,22 +4,39 @@
 <head>
     <meta charset="utf-8">
     <title>Charley Zhao</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://kit.fontawesome.com/9b34d59594.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Archivo:500|Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:500|Lato:300,400,700" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-    <nav>
+    <!-- <nav>
         <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./projects.html">Projects</a></li>
             <li><a href="./photography.html">Photography</a></li>
             <li><a target="_blank" href="./assets/doc/resume.pdf">Resume</a></li>
         </ul>
-    </nav>
+    </nav> -->
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s3"><a href="./index.html">Home</a></li>
+                <li class="tab col s3"><a href="./projects.html">Projects</a></li>
+                <li class="tab col s3"><a href="./photography.html">Photography</a></li>
+                <li class="tab col s3"><a target="_blank" href="./assets/doc/resume.pdf">Resume</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="container">
         <div class="projects-list">
+            <!--Use Materialize Collapsible to showcase-->
             <h3>Projects coming soon...</h3>
         </div>
 
@@ -33,6 +50,8 @@
         </ul>
         <span>&copy; 2019 Charley Zhao</span>
     </footer>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>

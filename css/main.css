@@ -26,12 +26,14 @@ a:hover {
 
 h1 {
     font-size: 1.85em;
+    line-height: 0.5em;
     font-family:'Archivo', 'Sans-Serif';
     font-weight: 500;
 }
 
 h3 {
     font-size: 1.25em;
+    line-height: 0.5em;
     font-family:'Archivo', 'Sans-Serif';
     font-weight: 500;
 }
