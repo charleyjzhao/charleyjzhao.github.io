@@ -31,13 +31,13 @@ h1 {
 }
 
 h3 {
-    font-size: 1.35em;
+    font-size: 1.25em;
     font-family:'Archivo', 'Sans-Serif';
     font-weight: 500;
 }
 
 p {
-    font-size: 1.15em;
+    font-size: 1em;
     line-height: 1.1em;
     font-family:'Lato', 'Sans-Serif';
     font-weight: 400;
@@ -49,7 +49,7 @@ footer {
     font-size: .8em;
     font-family:'Lato', 'Sans-Serif';
     font-weight: 400;
-    color: rgb(61, 61, 61);
+    color: #999;
 }
 
 ul.posts {
